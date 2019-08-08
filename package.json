@@ -1,0 +1,19 @@
+{
+  "name": "uncbootcamp-hw13-friend-finder",
+  "version": "1.0.0",
+  "description": "UNC Coding Bootcamp HW 13 Friend Finder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adishthapa/UNCBootcamp-HW13-Friend-Finder.git"
+  },
+  "author": "adishthapa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adishthapa/UNCBootcamp-HW13-Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/adishthapa/UNCBootcamp-HW13-Friend-Finder#readme"
+}

@@ -7,14 +7,10 @@ var PORT = process.env.PORT || 8080;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use("/css", express.static(__dirname +"/app/public/css"));
+app.use("/js", express.static(__dirname + "/app/public/js"));
 
-app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "/app/public/home.html"));
-});
-
-app.get("/survey", function(req, res) {
-    res.sendFile(path.join(__dirname, "/app/public/survey.html"))
-});
+require(path.join(__dirname, '/app/routing/htmlRoutes'))(app);
+require(path.join(__dirname, '/app/routing/apiRoutes'))(app);
 
 app.listen(PORT, function() {
     console.log("App listening on PORT " + PORT);

@@ -22,3 +22,12 @@ h4, h5, h6 {
 form #image {
     margin-bottom: 30px;
 }
+
+.modal img {
+    width: 500px;
+    height: 500px;
+}
+
+.modal-dialog {
+    width: 534px;
+}

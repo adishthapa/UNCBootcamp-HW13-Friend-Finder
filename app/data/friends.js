@@ -1,7 +1,7 @@
 var friends = [
     {
         name: "Brian",
-        photo: "../images/brian.jpg",
+        photo: "images/brian.jpg",
         scores: [
             1,
             1,
@@ -17,7 +17,7 @@ var friends = [
     },
     {
         name: "Gavin",
-        photo: "../images/gavin.jpg",
+        photo: "images/gavin.jpg",
         scores: [
             2,
             2,
@@ -33,7 +33,7 @@ var friends = [
     },
     {
         name: "Greg",
-        photo: "../images/greg.jpg",
+        photo: "images/greg.jpg",
         scores: [
             3,
             3,
@@ -49,7 +49,7 @@ var friends = [
     },
     {
         name: "Harold",
-        photo: "../images/harold.jpg",
+        photo: "images/harold.jpg",
         scores: [
             4,
             4,
@@ -65,7 +65,7 @@ var friends = [
     },
     {
         name: "Steve",
-        photo: "../images/steve.jpg",
+        photo: "images/steve.jpg",
         scores: [
             5,
             5,

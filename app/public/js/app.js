@@ -43,8 +43,15 @@ $("#submit-btn").on("click", function(event) {
             ]
         };
         
-        $.post("/api/friends", person).then(function() {
-            console.log("Please work.");
+        $.post("/api/friends", person).then(function(data) {
+            $("#best-match-name").text(data.name);
+            $("#best-match-photo").attr("src", data.photo);
+            $("#best-match-modal").modal("toggle");
         });
     };
+});
+
+$("#restart-btn").on("click", function() {
+    $("html").scrollTop(0);
+    window.location.reload();
 });

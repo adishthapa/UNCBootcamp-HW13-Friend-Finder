@@ -1,4 +1,3 @@
-var path = require('path');
 var friends = require("../data/friends.js");
 
 module.exports = function(app) {
@@ -18,8 +17,5 @@ module.exports = function(app) {
         };
         var match = total.indexOf(Math.min(...total));
         res.json(friends[match]);
-        console.log(total);
-        console.log(match);
-        console.log(friends[match].name);
     });
 };

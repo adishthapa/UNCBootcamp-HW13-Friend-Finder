@@ -16,6 +16,7 @@ A meme based friend finder that requires the User to take a quiz and it matches 
 - Heroku
 - HTML5
 - JavaScript
+- jQuery
 - Node.js
 
 ## Deployed Link
